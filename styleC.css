@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    padding: 20px;
+    background-image:url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+.logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 18px;
+    color: white;
+    vertical-align: middle;
+    
+}
+nav{
+    
+    
+    display: inline-block;
+    width: 100%;
+}
+.con{
+    border: 2px solid yellow;
+    border-radius: 10px;
+    width:25%;
+    align-self: center;
+}
+nav ul{
+    
+    float: right;
+    display: inline-block;
+    padding: 25px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 18px;
+    text-decoration: none;
+
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    border-radius: 6px;
+
+}
+a:active,a:hover{
+ background-color: navy;
+ color: white;
+ transition: 0.5s;
+}
+h1{
+    color: white;
+}
+.faq{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+body{
+    color: white;
+}
+form input,.ques{
+
+    background-color: transparent;
+    border: 2px solid cyan;
+    border-radius: 5px;
+    margin: 10px;
+    width: 248px;
+    color: white;
+    
+    }
+    form{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+    }
+    #sub{
+        background-color: aqua;
+        margin: 20px;
+        display: block;
+        height: 50px;
+        width: 100px;
+        }

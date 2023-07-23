@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 20px;
+    background-image:url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 18px;
+    color: white;
+    vertical-align: middle;
+    
+}
+nav{
+    
+    display: inline-block;
+    width: 100%;
+}
+nav ul{
+    
+    float: right;
+    display: inline-block;
+    padding: 25px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 18px;
+    text-decoration: none;
+
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    border-radius: 6px;
+
+}
+a:active,a:hover{
+    background-color: navy;
+    color: white;
+    transition: 0.5s;
+}
+form input{
+
+background-color: transparent;
+border: 2px solid cyan;
+border-radius: 5px;
+margin: 10px;
+width: 248px;
+color: white;
+
+}
+h1{
+    color: white;
+    text-decoration: underline;
+}
+#sub{
+    background-color: transparent;
+    border-color: crimson;
+    color: white;
+    margin: 20px;
+    display: block;
+    height: 50px;
+    width: 100px;
+    margin-left: 250px;
+    border-radius: 30px;
+    font-size: 15px;
+    
+}
+#sub:hover{
+    background-color: crimson;
+    color: white;
+}
+form{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: 2px double yellow;
+    border-radius: 20px;
+    text-align: right;
+}
+div{
+    width: 40%;
+    margin-top: 50px;
+}

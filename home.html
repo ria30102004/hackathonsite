@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-thon</title>
+    <link rel="stylesheet" href="stylehome.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <label class="logo">
+                TECH-THON
+                
+            </label>
+            <ul>
+                
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="form.html">Register</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="About.html">About</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+    <marquee bgcolor="black">
+        <img src="FINAL1N.jpg" alt="404">
+        <img src="FINAL2.jpg" alt="404">
+        <img src="FINAL3.jpg" alt="404">
+        <img src="FINAL4.jpg" alt="404">
+        <img src="FINAL5.jpg" alt="404">
+        
+    </marquee>
+  
+    <div class="container">
+        <div class="content">
+            <p>
+                <h1>Let the <span>Countdown </span>Begin</h1>
+                <div class="launchtime">
+                       <div>
+                           <p  class="days"
+                           id="days">00</p>
+                           <span>Days</span>
+                       </div>
+                       <div>
+                           <p id="hours" class="days">00</p>
+                           <span>Hours</span>
+                       </div>
+                        <div>
+                            <p id="mins" class="days">00</p>
+                            <span>Minutes</span>
+                        </div>
+                        <div>
+                            <p id="sec" class="days">00</p>
+                            <span>Seconds</span>
+                        </div>
+                </div>
+            </p><br><br>
+            <center>
+            
+            <button type="button" onclick="window.location.href='form.html';">
+            Register Now
+            </button>
+            </center>
+        </div>
+
+
+    </div>
+    <h1>
+        Timeline
+    </h1>
+    <ul class="bar">
+    <li class="
+active">Registration starts 13th March</li>
+<li class="
+active">Registration ends 28th March</li>
+<li class="
+active">Hackathon 20th April</li>
+    </ul>
+   <br><br><br><br><br><br><br><br>
+
+    
+    <script>
+        var countDownDate=new Date("August 10, 2023 00:00:00").getTime();
+        var x= setInterval(function(){
+            var now= new Date().getTime();
+            var distance=countDownDate-now;
+            var days=Math.floor(distance/(1000*60*60*24));
+            var hours=Math.floor((distance%(1000*60*60*24))/(1000*60*60));
+            var minutes=Math.floor((distance%(1000*60*60))/(1000*60));
+            var seconds=Math.floor((distance%(1000*60))/(1000));
+            document.getElementById("days").innerHTML=days;
+            document.getElementById("hours").innerHTML=hours;
+            document.getElementById("mins").innerHTML=minutes;
+
+            document.getElementById("sec").innerHTML=seconds;
+
+        }, 1000);
+        
+
+        
+
+    </script>
+
+
+    
+</body>
+</html>
